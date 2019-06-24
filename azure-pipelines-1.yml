@@ -26,3 +26,8 @@ jobs:
     script: |
       print('Hello world 1')
       print('Hello world 2')
+# ...
+# do this near the end of your pipeline in most cases
+- task: PublishBuildArtifacts@1     
+      
+      
