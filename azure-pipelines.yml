@@ -1,2 +1,2 @@
-cd /pool:
+pool:
   vmImage: 'Ubuntu-16.04'
