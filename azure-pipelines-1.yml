@@ -20,3 +20,9 @@ jobs:
       architecture: 'x64'
 
   # Add additional tasks to run using each Python version in the matrix above
+- task: PythonScript@0
+  inputs:
+    targetType: 'inline'
+    script: |
+      print('Hello world 1')
+      print('Hello world 2')
