@@ -1,2 +1,3 @@
-pool:
-  vmImage: 'Ubuntu-16.04'
+- job: 'your_job_name' 
+  pool:    
+    vmImage: 'Ubuntu-16.04'
